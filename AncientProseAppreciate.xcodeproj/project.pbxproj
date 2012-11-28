@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21042671155CEE4200F67A89 /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2104266E155CEE4200F67A89 /* navbar_bg.png */; };
-		21042672155CEE4200F67A89 /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2104266F155CEE4200F67A89 /* NavigationBar.png */; };
 		21042673155CEE4200F67A89 /* of_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 21042670155CEE4200F67A89 /* of_default.png */; };
-		21042676155CEE5B00F67A89 /* of_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 21042675155CEE5B00F67A89 /* of_default.png */; };
 		2155BEA91563F04900116C9F /* bottomRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2155BE9C1563F04900116C9F /* bottomRow.png */; };
 		2155BEAA1563F04900116C9F /* bottomRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2155BE9D1563F04900116C9F /* bottomRowSelected.png */; };
 		2155BEAB1563F04900116C9F /* gradientBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2155BE9E1563F04900116C9F /* gradientBackground.png */; };
@@ -1372,9 +1370,7 @@
 				CE171680155A5AC900D86240 /* kitten2.jpg in Resources */,
 				CE171681155A5AC900D86240 /* kitten3.jpg in Resources */,
 				21042671155CEE4200F67A89 /* navbar_bg.png in Resources */,
-				21042672155CEE4200F67A89 /* NavigationBar.png in Resources */,
 				21042673155CEE4200F67A89 /* of_default.png in Resources */,
-				21042676155CEE5B00F67A89 /* of_default.png in Resources */,
 				21953C1E1562B81D004F3C68 /* MusicPlay+SearchBg.jpg in Resources */,
 				21953C1F1562B81D004F3C68 /* 10069076.jpg in Resources */,
 				21953C201562B81D004F3C68 /* 10173600.jpg in Resources */,
@@ -1615,7 +1611,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
@@ -1632,7 +1628,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";

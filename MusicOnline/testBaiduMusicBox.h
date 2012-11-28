@@ -21,7 +21,7 @@
 }
 
 -(NSArray*) KeyWordsForSongs:(NSString*)myKeyWords pageNavi:(int)myPageNavi;
--(NSString*)decodeBaiduURL:(NSString*)myEncodeURL;
--(NSString*) DownPageURLToMusicFileURL:(NSString *)myDownpage;
--(void)DataListInit:(NSString *)songs PageNav:(int)page;
+//-(NSString*)decodeBaiduURL:(NSString*)myEncodeURL;
+//-(NSString*) DownPageURLToMusicFileURL:(NSString *)myDownpage;
+//-(void)DataListInit:(NSString *)songs PageNav:(int)page;
 @end

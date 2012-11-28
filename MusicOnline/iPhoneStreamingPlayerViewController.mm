@@ -123,7 +123,7 @@
 			NULL,
 			kCFStringEncodingUTF8)
 		autorelease];
-
+    NSLog(@"%@",escapedValue);
 	//NSURL *url = [NSURL URLWithString:@"http://ftp.jledu.gov.cn/kejian/glb/music/%E7%89%87%E7%89%87%E6%9E%AB%E5%8F%B6%E6%83%85.mp3"];
     //url = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"蓝色" ofType:@"mp3"]];
     //url = [NSURL URLWithString:@"http://www.music-aa.cn/filesUp/2/4/%D5%C5%F6%A6%D3%B1-%C8%E7%B9%FB%D5%E2%BE%CD%CA%C7%B0%AE%C7%E9.mp3"];

@@ -10,7 +10,7 @@
 
 @interface LeavesView () 
 
-@property (assign) CGFloat leafEdge;
+@property CGFloat leafEdge;
 
 @end
 
@@ -242,6 +242,9 @@ CGFloat distance(CGPoint a, CGPoint b);
 	pageCache.dataSource = value;
 }
 
+-(CGFloat)leafEdge{
+    return self.leafEdge;
+}
 - (void) setLeafEdge:(CGFloat)aLeafEdge {
 	leafEdge = aLeafEdge;
 	topPageShadow.opacity = MIN(1.0, 4*(1-leafEdge));
@@ -250,6 +253,9 @@ CGFloat distance(CGPoint a, CGPoint b);
 	[self setLayerFrames];
 }
 
+-(NSUInteger)currentPageIndex{
+    return self.currentPageIndex;
+}
 - (void) setCurrentPageIndex:(NSUInteger)aCurrentPageIndex {
 	currentPageIndex = aCurrentPageIndex;
 	
@@ -264,6 +270,9 @@ CGFloat distance(CGPoint a, CGPoint b);
 	[CATransaction commit];
 }
 
+-(CGFloat)preferredTargetWidth{
+    return self.preferredTargetWidth;
+}
 - (void) setPreferredTargetWidth:(CGFloat)value {
 	preferredTargetWidth = value;
 	[self updateTargetRects];

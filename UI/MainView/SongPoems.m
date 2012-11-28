@@ -42,7 +42,7 @@
 - (void) displayPageNumber:(NSUInteger)pageNumber 
 {
 	self.navigationItem.title = [NSString stringWithFormat:
-								 @"Page %u of %u", 
+								 @"Page %u of %lu", 
 								 pageNumber, 
 								 CGPDFDocumentGetNumberOfPages(pdf) + [images count] + 10];
 }

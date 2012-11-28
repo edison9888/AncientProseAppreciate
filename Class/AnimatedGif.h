@@ -28,11 +28,11 @@
 //  appreciated but not required.
 //  
 
-#ifdef TARGET_OS_IPHONE			
+#ifdef TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
-#endif TARGET_OS_IPHONE	
+#endif ///ARGET_OS_IPHONE	
 
 @interface AnimatedGifQueueObject : NSObject
 {

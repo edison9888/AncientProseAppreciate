@@ -112,7 +112,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     cell.backgroundColor = [UIColor clearColor];
     cell.selectionStyle  = UITableViewCellSelectionStyleNone;
@@ -123,7 +123,7 @@
             [view removeFromSuperview];
         }
         UITextView* introText = [[UITextView alloc] init];
-        [introText setText:@"李白\n（701-762），字太白，号青莲居士。生于绵州彰明县青莲乡。李白青年时即漫游全国各地，天宝初年，因吴筠及贺知章推荐，唐玄宗召为翰林供奉承，但不久又赐金放还。安\史之乱后，被牵连累，长流放于夜郎。晚年漂泊东南一带，依附当涂令李阳冰，公元762年病死于当涂。李白才华横溢，性格豪放，刻苦向前人学习，善于从民间文学中汲取营养和素材。他的诗风格豪放，雄奇壮丽，表现了浪漫主义色彩，是继屈原之后我国古代最伟大的浪漫主义诗人。被后人称之为“诗仙”。"];
+        [introText setText:@"李白（701-762），字太白，号青莲居士。生于绵州彰明县青莲乡。李白青年时即漫游全国各地，天宝初年，因吴筠及贺知章推荐，唐玄宗召为翰林供奉承，但不久又赐金放还。安史之乱后，被牵连累，长流放于夜郎。晚年漂泊东南一带，依附当涂令李阳冰，公元762年病死于当涂。李白才华横溢，性格豪放，刻苦向前人学习，善于从民间文学中汲取营养和素材。他的诗风格豪放，雄奇壮丽，表现了浪漫主义色彩，是继屈原之后我国古代最伟大的浪漫主义诗人。被后人称之为“诗仙。"];
         introText.frame = CGRectMake(0, 0, 300, 100);
         introText.font = [UIFont systemFontOfSize:14];
         introText.backgroundColor = [UIColor clearColor];

@@ -12,7 +12,7 @@
 @implementation LeavesCache
 
 @synthesize dataSource, pageSize;
-
+//@synthesize <#property#>
 - (id) initWithPageSize:(CGSize)aPageSize
 {
 	if ([super init]) {
@@ -96,7 +96,9 @@
 }
 
 #pragma mark accessors
-
+-(CGSize)pageSize{
+    return self.pageSize;
+}
 - (void) setPageSize:(CGSize)value {
 	pageSize = value;
 	[self flush];

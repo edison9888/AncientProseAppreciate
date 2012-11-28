@@ -17,7 +17,7 @@
     if (self) {
         db = [[FMDatabase alloc] initWithPath:[FileDataBase dataBasePath]];
         if (![db open]) {
-            NSLog(@"Could not open db:%@  %@",[db lastErrorCode],[db lastErrorMessage]);
+            NSLog(@"Could not open db:%d %@",[db lastErrorCode],[db lastErrorMessage]);
         }else{
             [db setShouldCacheStatements:YES];
         }

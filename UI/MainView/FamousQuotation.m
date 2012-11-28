@@ -129,7 +129,7 @@
         }
         
         if (![db validateSQL:sql error:&error]) {
-            NSLog(@"%@  %@",[db lastErrorCode],[db lastErrorMessage]);
+            NSLog(@"%d  %@",[db lastErrorCode],[db lastErrorMessage]);
         }
         
         if ([db columnExists:@"T_POEM" columnName:@"PID"]) {
@@ -248,7 +248,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     cell.backgroundColor = [UIColor clearColor];
     cell.selectionStyle  = UITableViewCellSelectionStyleNone;
